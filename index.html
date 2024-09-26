@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Vow[el]s Band</title>
+        <link rel="stylesheet" href="website.css">
+    </head>
+    <body>
+        <!--Logo and album cover-->
+        <div class="container">
+            <img class="album" src="/images/albumcover.jpg">
+           <!-- <div class="Logo">Vow[el]s</div>-->
+        </div>
+       <!-- <img class ="sample" src="/images/IMG_1581.jpg">-->
+        <!--A list of upcoming shows-->
+        <div id="upcoming-shows">
+            <div id="single-show">
+                <p class="shows">Upcoming Shows</p>
+                <!--Comment out the following two lines if there are shows-->
+                <p class="noShows">Sorry, there are no shows booked right now.</p>
+                <hr class="bar">
+
+                <!--Comment out below if there are no booked shows
+                <div class="dates">THU, APR 20</div>
+                <div class="venue">YOUR MOM'S LIVING ROOM</div>
+                <div class="city">KENNESAW, GA</div>
+                <a href="https://www.ticketmaster.com/?landing=c&awtrc=true&c=SEM_TMBRAND_ggl_298560299_24300724499_ticketmaster&GCID=0&gclid=EAIaIQobChMIx_bTgcqY_gIVVIJbCh3HYQPVEAAYASAAEgKFcvD_BwE&gclsrc=aw.ds" target="_blank">
+                <button class="tickets">GET TICKETS</button></a>
+                <hr class="bar">
+            </div>
+            <div id="single-show">
+                <div class="dates">FRI, APR 21</div>
+                <div class="venue">YOUR SISTER'S BED</div>
+                <div class="city">ACWORTH, GA</div>
+                <a href="https://www.ticketmaster.com/?landing=c&awtrc=true&c=SEM_TMBRAND_ggl_298560299_24300724499_ticketmaster&GCID=0&gclid=EAIaIQobChMIx_bTgcqY_gIVVIJbCh3HYQPVEAAYASAAEgKFcvD_BwE&gclsrc=aw.ds" target="_blank">
+                <button class="tickets">GET TICKETS</button></a>
+                <hr class="bar">
+            </div>
+            <div id="single-show">
+                <div class="dates">SAT, APR 22</div>
+                <div class="venue">ON THE MOON</div>
+                <div class="city">THE MOON</div>
+                <a href="https://www.ticketmaster.com/?landing=c&awtrc=true&c=SEM_TMBRAND_ggl_298560299_24300724499_ticketmaster&GCID=0&gclid=EAIaIQobChMIx_bTgcqY_gIVVIJbCh3HYQPVEAAYASAAEgKFcvD_BwE&gclsrc=aw.ds" target="_blank">
+                <button class="tickets">GET TICKETS</button></a>
+                <hr class="bar">
+                -->
+            </div>
+        </div>
+        <!--Embedded youtube video-->
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/y2Iosk1jjkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!--Contact form-->
+        <div class="container">
+            <h1 class="contact">Contact Us</h1>
+            <form target="_self" action="https://formsubmit.co/encryptedemail80@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="name" class="form-control" placeholder="Name" required>
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                <textarea placeholder="Your Message" class="message" name="message" rows="10" required></textarea>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/website.html?">
+                <button type="submit" class="submit">Send</button>
+            </form>
+        </div>
+    </body>
+    <footer>
+        <!--Social Media links-->
+        <a href="https://www.facebook.com/vowelstheband" target="_blank"><img id="icon" class="icon-facebook" src="/images/facebook.jpg"></a>
+        <a href="https://www.instagram.com/vowels_band/" target="_blank"><img id ="icon" class="icon-instagram" src="/images/insta.jpg"></a>
+        <a href="https://twitter.com/Vowels_band" target="_blank"><img id="icon" class="icon-twitter" src="/images/twitter.jpg"></a>
+        <a href="https://www.youtube.com/channel/UCQSWrd8M3w1dYhmFc0bMU2g" target="_blank"><img id="icon" class="icon-youtube" src="/images/yout.jpg"></a>
+        <a href="https://open.spotify.com/artist/09TgPRT6TitacSWk3imzAy?si=TL61hcoMRhCifyvM-FORoA" target="_blank"><img id="icon" class="icon-spotify" src="/images/spotify.jpg"></a>
+        <a href="https://www.tiktok.com/@vowels_band" target="_blank"><img id="icon" class="icon-tiktok" src="/images/tiktoknew.png"></a>
+        </footer>
+</html>
